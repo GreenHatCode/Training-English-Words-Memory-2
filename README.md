@@ -1,4 +1,4 @@
-# Training-English-Words-Memory
+# Training-English-Words-Memory 2
 Summer 2024 educational practice project 
 
 This  application  is  a  simple  computer  tool  for  learning  foreign  language 

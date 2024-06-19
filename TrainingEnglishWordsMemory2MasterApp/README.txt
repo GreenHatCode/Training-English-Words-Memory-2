@@ -1,0 +1,1 @@
+used MFC in a static library

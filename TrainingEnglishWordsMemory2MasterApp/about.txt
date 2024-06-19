@@ -1,0 +1,6 @@
+AboutProgramSTART
+add text about your application
+AboutProgramEND
+AboutAuthorsSTART
+here add some text about authors
+AboutAuthorsEND

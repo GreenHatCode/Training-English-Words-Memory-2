@@ -1,5 +1,0 @@
-ErrorTextSTART
-1Absent setting.txt
-2Incorrect recource filename
-3Absent about.txt
-ErrorTextEND

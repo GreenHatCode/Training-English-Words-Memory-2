@@ -198,7 +198,7 @@ void CreateTestingFileWindow::OnFilesettingsNavigationbuttons()
 void CreateTestingFileWindow::OnNewTrainingfile()
 {
 	//should close this window and open create training file window
-	AfxMessageBox(L"Will be added in future versions.");
+	AfxMessageBox(L"Will be added in a future verison.");
 }
 
 
@@ -288,7 +288,7 @@ void CreateTestingFileWindow::OnFileOpen32775()
 			file.setFileName(dlgFile.GetFileName());
 
 			//getting file name
-			this->SetWindowTextW(inf.GetFileName() + L" — Training English Words Memory 2 Master App");
+			this->SetWindowTextW(inf.GetFileName() + L" Â— Training English Words Memory 2 Master App");
 
 			bool fg1 = false;
 			bool fg2 = false;

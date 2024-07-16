@@ -102,9 +102,7 @@ void CTrainingEnglishWordsMemory2MasterAppDlg::OnBnClickedButton3()
 {
 	//training file window
 	CreateTrainingFileWindow newWindow;
-	this->ShowWindow(SW_HIDE);
 	newWindow.DoModal();
-	this->ShowWindow(SW_SHOW);
 
 }
 
@@ -113,31 +111,25 @@ void CTrainingEnglishWordsMemory2MasterAppDlg::OnBnClickedButton2()
 {
 	//create testing file window
 	CreateTestingFileWindow newWindow;
-	this->ShowWindow(SW_HIDE);
 	newWindow.DoModal();
-	this->ShowWindow(SW_SHOW);
 
 }
 
 void CTrainingEnglishWordsMemory2MasterAppDlg::OnAboutQuickguide()
 {
-	AfxMessageBox(L"Will be added in future verison. Watch the guide in folder \"QuickGuide\".");
+	AfxMessageBox(L"Will be added in a future verison. Watch the guide in the folder \"QuickGuide\".");
 }
 
 
 void CTrainingEnglishWordsMemory2MasterAppDlg::OnAboutAboutprogram()
 {
 	AboutWindow newWindow(TextType::AboutApp);
-	this->ShowWindow(SW_HIDE);
 	newWindow.DoModal();
-	this->ShowWindow(SW_SHOW);
 }
 
 
 void CTrainingEnglishWordsMemory2MasterAppDlg::OnAboutAuthors()
 {
 	AboutWindow newWindow(TextType::AboutAuthor);
-	this->ShowWindow(SW_HIDE);
 	newWindow.DoModal();
-	this->ShowWindow(SW_SHOW);
 }

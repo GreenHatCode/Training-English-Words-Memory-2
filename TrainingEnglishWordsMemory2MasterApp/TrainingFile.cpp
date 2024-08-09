@@ -87,6 +87,11 @@ CString TrainingFile::getDataToSave()
 				//if value[i] separates english and another language word
 				modifiedData += "|"; //replace this space on separating symbol
 			}
+			else if (englishAlphabet.Find(data[i + 1]) >= 0 && englishAlphabet.Find(data[i - 1]) == -1)
+			{
+				modifiedData += "|";
+			}
+			else modifiedData += data[i];
 		}
 		else modifiedData += data[i];
 	}

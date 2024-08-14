@@ -40,7 +40,7 @@ END_MESSAGE_MAP()
 void AboutWindow::OnBnClickedButton1()
 {
 	//code with link on my github repozitory with this app
-	system("explorer https://github.com/SashaZemC.html");
+	system("explorer https://github.com/GreenHatCode/Training-English-Words-Memory-2.git");
 }
 
 

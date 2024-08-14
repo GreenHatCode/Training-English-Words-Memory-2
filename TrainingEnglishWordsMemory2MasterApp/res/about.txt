@@ -1,5 +1,6 @@
 AboutProgramSTART
 add text about application
+App icon source link:  http://www.icons-land.com
 AboutProgramEND
 AboutAuthorsSTART
 add some text about author
